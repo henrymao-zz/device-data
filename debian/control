@@ -1,0 +1,14 @@
+Source: device-data
+Section: misc
+Priority: optional
+Maintainer: Henry Mao <henry.mao@canonical.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+
+Package: device-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: Device configuration data files
+ This package contains device configuration data files
+ for various hardware platforms.
