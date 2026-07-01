@@ -1,4 +1,4 @@
-device-data (2.0.0-2) UNRELEASED; urgency=medium
+device-data (2.0.1-1) UNRELEASED; urgency=medium
 
   * Rebuild with dereferenced symlinks (cp -r -L) to resolve dangling
     common/ profile links
