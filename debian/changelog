@@ -1,3 +1,12 @@
+device-data (2.0.0-1) UNRELEASED; urgency=medium
+
+  * Repackage upstream sonic-buildimage 202405 device data for all
+    platforms; install to /usr/share/sonic/device
+  * Build now driven by Makefile fetching the 202405 branch and
+    flattening device/<vendor>/<platform> into device/<platform>
+
+ -- Henry Mao <henry.mao@canonical.com>  Wed, 01 Jul 2026 00:00:00 +0000
+
 device-data (1.2.0-1) UNRELEASED; urgency=medium
 
   * Include common/profiles referenced by dell symlinks

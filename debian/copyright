@@ -1,8 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: device-data
+Upstream-Source: https://github.com/sonic-net/sonic-buildimage (branch 202405, device/)
 
 Files: *
-Copyright: 2026 Canonical Ltd.
+Copyright: 2026 Sonic community contributors
 License: Apache-2.0
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.

@@ -1,0 +1,6 @@
+/build/
+/device/
+/sonic-buildimage-tmp/
+/debian/files
+/debian/*.buildinfo
+/debian/*.changes
