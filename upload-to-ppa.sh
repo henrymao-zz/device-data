@@ -40,7 +40,7 @@ trap 'mv -f /tmp/device-data-changelog.bak debian/changelog' EXIT
 sed -i "s/UNRELEASED/${RELEASE}/" debian/changelog
 
 NOW=$(date -R)
-sed -i "s/>  .* 202[0-9] .*</>  ${NOW}</" debian/changelog
+sed -i "0,/^ -- .*>  .*/s/^ -- .*>  .*/ -- ${DEBFULLNAME} <${DEBEMAIL}>  ${NOW}/" debian/changelog
 
 debuild -S -sa -k"${GPG_KEY}"
 
