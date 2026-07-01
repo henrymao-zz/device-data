@@ -1,3 +1,10 @@
+device-data (2.0.0-2) UNRELEASED; urgency=medium
+
+  * Rebuild with dereferenced symlinks (cp -r -L) to resolve dangling
+    common/ profile links
+
+ -- Henry Mao <henry.mao@canonical.com>  Wed, 01 Jul 2026 00:00:00 +0000
+
 device-data (2.0.0-1) UNRELEASED; urgency=medium
 
   * Repackage upstream sonic-buildimage 202405 device data for all
